@@ -20,11 +20,13 @@ changeKhaled.innerHTML = "Project Manager";
 
 Concatenation*/
 
-
+var changePiko = document.getElementById("alias3");
+changePiko.innerHTML = "Concatenation";
 
 /*4. Replace the n/a for Snoop with the gangsta lorem ipsum*/
 
-
+var changeSnoop = document.getElementsByClassName("profile")[0];
+changeSnoop.innerHTML = "Lorizzle ipsizzle dolizzle sit crackalackin, fizzle adipiscing elit.";
 
 /*5. Relace the n/a for Samuel L Jackson with his lorem ipsum*/
 
