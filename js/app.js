@@ -30,7 +30,8 @@ changeSnoop.innerHTML = "Lorizzle ipsizzle dolizzle sit crackalackin, fizzle adi
 
 /*5. Relace the n/a for Samuel L Jackson with his lorem ipsum*/
 
-
+var changeSammy = document.getElementsByClassName("profile")[2];
+changeSammy.innerHTML = "Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks.";
 
 
 /*6. Create a div element for Chuck Norris and give it an id of "name7". Inside this div element, give it the contents of "Chuck Norris".
