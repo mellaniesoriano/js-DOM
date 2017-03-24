@@ -38,13 +38,19 @@ changeSammy.innerHTML = "Look, just because I don't be givin' no man a foot mass
 
 Append this div element to the nameBox div*/
 
- 
+ var changeChuck = document.createElement("div");
+changeChuck.id = "name7";
+changeChuck.innerHTML = "Chuck Norris";
+nameBox.appendChild(changeChuck);
 
 /*7. Create a div element for Grimmace and give it an id of "alias8". Inside this div element, give it the contents of "The Purple Monster".
 
 Append this div element to the aliasBox div.*/
 
-
+var changeGrim = document.createElement("div");
+changeGrim.id = "alias8";
+changeGrim.innerHTML = "The Purple Monster";
+aliasBox.appendChild(changeGrim);
 
 
 //Final Boss
