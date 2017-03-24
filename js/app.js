@@ -55,3 +55,8 @@ aliasBox.appendChild(changeGrim);
 
 //Final Boss
 /*8. Create your own profile.*/
+
+var myName = document.createElement("div");
+myName.id = "name9";
+myName.innerHTML = "Mellanie Soriano";
+document.getElementsByClassName("block3 col-sm-4")[2].innerHTML = "<img src=http://i68.tinypic.com/14ijxvr.jpg>";
