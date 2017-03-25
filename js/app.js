@@ -56,24 +56,26 @@ aliasBox.appendChild(changeGrim);
 //Final Boss
 /*8. Create your own profile.*/
 
-document.getElementsByClassName("block3 col-sm-4")[2].innerHTML = "<img src=http://i68.tinypic.com/14ijxvr.jpg>";
+var newElement = document.getElementsByClassName("block3 col-sm-4")[2];
+
+document.getElementsByClassName("block3 col-sm-4")[2].innerHTML = "<img src=https://pbs.twimg.com/profile_images/668279339838935040/8sUE9d4C.jpg>";
 
 var myName = document.createElement("div");
 myName.id = "name9";
-myName.innerHTML = "Mellanie";
+myName.innerHTML = "Tyrion Lannister";
 document.getElementsByClassName("block3 col-sm-4")[2].appendChild(myName);
 
 var myPosition = document.createElement("div");
 myPosition.id = "position9";
-myPosition.innerHTML = "Coding Noob";
+myPosition.innerHTML = "CEO";
 document.getElementsByClassName("block3 col-sm-4")[2].appendChild(myPosition);
 
 var myAlias = document.createElement("div");
 myAlias.id = "alias9";
-myAlias.innerHTML = "Melly Beans";
+myAlias.innerHTML = "IMP";
 document.getElementsByClassName("block3 col-sm-4")[2].appendChild(myAlias);
 
 var myBio = document.createElement("div");
 myBio.id = "bio9";
 myBio.innerHTML = "A mind needs books like a sword needs a whetstone. I am not questioning your honor, I am denying its existence. Someday, if you decide not to execute me, I'll tell you all about why I killed my father. And on that day, should it ever come, we'll need more wine than this.";
-document.getElementsByClassName("block3 col-sm-4")[2].appendChild(myBio);
+newElement.appendChild(myBio);
