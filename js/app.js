@@ -67,7 +67,7 @@ document.getElementsByClassName("block3 col-sm-4")[2].appendChild(myName);
 
 var myPosition = document.createElement("div");
 myPosition.id = "position9";
-myPosition.innerHTML = "CEO";
+myPosition.innerHTML = "Master of Code";
 document.getElementsByClassName("block3 col-sm-4")[2].appendChild(myPosition);
 
 var myAlias = document.createElement("div");
